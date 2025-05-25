@@ -7,16 +7,13 @@ font pango:monospace 8
 
 # font pango:DejaVu Sans Mono 8
 
-# Start XDG autostart .desktop files using dex. See also
-# https://wiki.archlinux.org/index.php/XDG_Autostart
 exec --no-startup-id dex --autostart --environment i3
 
 # xss-lock grabs a logind suspend inhibit lock and will use i3lock to lock the
 # screen before suspend. Use loginctl lock-session to lock your screen.
 exec --no-startup-id xss-lock --transfer-sleep-lock -- i3lock --nofork
 
-# NetworkManager is the most popular way to manage wireless networks on Linux,
-# and nm-applet is a desktop environment-independent system tray GUI for it.
+# NetworkManager
 exec --no-startup-id nm-applet 
 
 # Bar
@@ -184,9 +181,9 @@ default_border pixel 5
 default_floating_border pixel 5
 
 # Colors
-client.focused #bbbbbb #171717 #ffffff #bbbbbb #bbbbbb
-client.unfocused #171717 #171717 #ffffff #171717 #171717
-client.focused_inactive #4c4c4c #171717 #ffffff #4c4c4c #4c4c4c
+client.focused #2e2e2e #151515 #e8e3e3 #2e2e2e #2e2e2e
+client.unfocused #151515 #151515 #e8e3e3 #151515 #151515
+client.focused_inactive #181818 #151515 #e8e3e3 #181818 #181818
 
 # Gaps
 gaps inner 10
