@@ -1,0 +1,25 @@
+font_family      JetbrainsMono NF
+bold_font        auto
+italic_font      auto
+bold_italic_font auto
+
+font_size 14.0
+window_padding_width 5
+background_opacity 0.7
+hide_window_decorations yes
+confirm_os_window_close 0
+
+# cursor_shape beam
+
+remember_window_size  yes
+initial_window_width 720
+initial_window_height 330
+
+map ctrl+equal change_font_size all +1.0
+map ctrl+minus change_font_size all -1.0
+
+
+# BEGIN_KITTY_THEME
+# Hardcore
+include current-theme.conf
+# END_KITTY_THEME
